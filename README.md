@@ -33,3 +33,17 @@ Live Application: https://prepwise-lite-git-main-priyanka17.vercel.app/
 ```bash
 git clone [https://github.com/Priyanka-c0de/prepwise-lite.git](https://github.com/Priyanka-c0de/prepwise-lite.git)
 cd prepwise-lite
+````````
+2. Configure Environment Variables
+Create a .env.local file in the root directory and append the following credentials:
+```
+Code snippet
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+GROQ_API_KEY=your_groq_api_key
+`````
+3. Install Dependencies and Run Development Server
+```Bash
+npm install
+npm run dev
+````
